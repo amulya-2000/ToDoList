@@ -68,6 +68,7 @@ class Todo extends Component {
 
   render() {
     const {todoInput, todoList} = this.state
+    console.log(`render `);
 
     return (
       <div className="app-container">
